@@ -1,0 +1,1 @@
+SELECT student_id, COUNT(*) FROM assignments where state = 'GRADED' GROUP BY student_id;
